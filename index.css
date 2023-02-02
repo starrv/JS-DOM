@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    background: transparent;
+    font-family: 'Merriweather', serif;
+    font-size:1rem;
+}
+
+input[type="submit"], button{
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+ul.inventory{
+    margin:1rem auto;
+    border:solid 1px black;
+    border-radius:5px;
+    padding:1rem;
+    background-color:antiquewhite;
+    width:50%;
+}
+
+ul.inventory li{
+    list-style:none;
+    margin: 1rem auto;
+    width:50%;
+    border:solid 1px black;
+    border-radius: 5px;
+    padding:1rem;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+form{
+    margin:1rem auto;
+    width:50%;
+}
+
+form#shopForm{
+    border:solid 1px black;
+    border-radius:5px;
+}
+
+form {
+    margin:1rem auto;
+    padding:1rem;
+    text-align:center;
+}
+
+#shoppingItems{
+    text-align:center;
+    width:50%;
+    margin:1rem auto;
+}
+
+#shoppingItems li{
+    list-style:none;
+}
+
+form#shopForm div{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+form input, form button{
+    box-sizing: border-box;
+    margin:1rem;
+    padding:.5rem;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+ 
+form input[type="submit"], form button{
+    background-color:brown;
+    color:white;
+}
+
+label#itemLabel{
+    font-weight: 900;
+}
+
+@media (max-width:600px){
+    form input, form div, form button{
+        width:75%;
+    }
+}
+
+@media (max-width:300px){
+    *{
+        overflow-x: hidden;
+    }    
+}
